@@ -12,8 +12,7 @@ const connectDB = require("../src/utils/database");
 
 // Importing the code that we want to test
 const app = require("../src/index");
-const { describe } = require('yargs');
-const { default: test } = require('node:test');
+
 
 beforeAll(async () => {
     await connectDB();
