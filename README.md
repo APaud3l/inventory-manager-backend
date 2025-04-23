@@ -15,3 +15,5 @@ GET /health
 expect(response.body.username).toBe("Adam");
 
 expect(response.body.username).toBe(newUser.username);
+
+Random text here..
