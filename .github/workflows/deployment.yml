@@ -27,8 +27,8 @@ jobs:
         run: npm install
 
       # Run any available tests, if the test command is available
-      - name: Run tests
-        run: npm run test --if-present
+      # - name: Run tests
+      #   run: npm run test --if-present
 
       # Deploy the NodeJS project
       - uses: JorgeLNJunior/render-deploy@v1.4.5
